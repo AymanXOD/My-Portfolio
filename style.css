@@ -151,5 +151,40 @@ li > a:hover {
     #works > div > div > div.project_headline > h1 {
         font-size:  3rem !important;
     }
+    nav {
+        background-color: rgb(116, 95, 84)!important;
+        position: relative !important;
+        width: 100%;  
+    }
+    #nav_bar > div > header > ul > li:nth-child(1) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(2) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(3) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(4) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(5) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(6) > a {
+        padding-right: 7px!important; 
+        padding-left: 7px!important;
+    }
+    #nav_bar > div > header > a > span {
+        font-size: 2rem!important;
+    }
   }
+
+  
+
 
