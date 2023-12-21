@@ -25,7 +25,7 @@
 }
 #skill {
     background-image: url(Image/3.png);
-    height: auto;
+    height: 575px;
 
 }
 #experience {
@@ -39,7 +39,7 @@
 }
 #greeting {
     background-image: url(Image/5.png);
-    height: auto;
+    height: 768PX;
 }
 
 .img_frame {
@@ -154,7 +154,8 @@ li > a:hover {
     nav {
         background-color: rgb(116, 95, 84)!important;
         position: relative !important;
-        width: 100%;  
+        width: 100%;
+        
     }
     #nav_bar > div > header > ul > li:nth-child(1) > a {
         padding-right: 7px!important; 
@@ -183,8 +184,78 @@ li > a:hover {
     #nav_bar > div > header > a > span {
         font-size: 2rem!important;
     }
+    #nav_bar > div > header > ul{
+        border-top: 1px solid black  !important;
+    }
+    .greeting_1 {
+        text-align: center!important;
+        display: flex!important;
+        flex-wrap: wrap!important;
+        align-content: flex-end!important;
+
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    #experience > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
+        font-size: 3rem!important;
+    }
+    #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
+        font-size: 3rem!important;
+    }
+    #greeting > div > div > h1 {
+        font-size: 4rem!important;
+    }
+    #greeting > div > div > h2 {
+        font-size: 1.5rem!important;
+    }
+    #works > div > div > div.project_headline > h1 {
+        font-size:  3rem !important;
+    }
+    nav {
+        background-color: rgb(116, 95, 84)!important;
+        position: relative !important;
+        width: 100%;
+        
+    }
+    #nav_bar > div > header > ul > li:nth-child(1) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(2) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(3) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(4) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(5) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > ul > li:nth-child(6) > a {
+        padding-right: 4px!important; 
+        padding-left: 4px!important;
+    }
+    #nav_bar > div > header > a > span {
+        font-size: 2rem!important;
+    }
+    #nav_bar > div > header > ul{
+        border-top: 1px solid black  !important;
+    }
+    .greeting_1 {
+        text-align: center!important;
+        display: flex!important;
+        flex-wrap: wrap!important;
+        align-content: flex-end!important;
+
+    }
   }
 
-  
+
 
 
