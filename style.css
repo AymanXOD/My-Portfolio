@@ -191,7 +191,7 @@ li > a:hover {
         text-align: center!important;
         display: flex!important;
         flex-wrap: wrap!important;
-        align-content: flex-end!important;
+        align-content: center!important;
 
     }
   }
@@ -251,7 +251,7 @@ li > a:hover {
         text-align: center!important;
         display: flex!important;
         flex-wrap: wrap!important;
-        align-content: flex-end!important;
+        align-content: center!important;
 
     }
   }
