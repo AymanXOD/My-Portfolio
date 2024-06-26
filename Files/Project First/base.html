@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles_bug.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-item">Dashboard</div>
+        <div class="sidebar-item">
+          <div class="dropdown">
+            <div class="dropdown-toggle">Contents</div>
+            <ul class="dropdown-menu">
+              <li>Articles</li>
+              <li>Blogs</li>
+              <li>Pending Approvals</li>
+            </ul>
+          </div>
+        </div>
+        <div class="sidebar-item">
+          <div class="dropdown">
+            <div class="dropdown-toggle">Users</div>
+            <ul class="dropdown-menu">
+              <li>Users List</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="header">
+          <input type="text" placeholder="Search..." class="search-bar" />
+          <button class="search-button">Search</button>
+          <div class="user-icon">
+            <img src="user-icon.jpg" alt="User Icon" />
+          </div>
+        </div>
+        <div class="articles-listing">
+          <h2>Articles Listing</h2>
+          <button class="filter-button">Filter Articles</button>
+          <input
+            type="text"
+            placeholder="Search by Title or Description"
+            class="search-articles"
+          />
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Publish Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="articles-table-body">
+              <tr>
+                <td>
+                  <a href="#"
+                    >The Rise of Remote Work: How It's Changing the Business
+                    Landscape</a
+                  >
+                </td>
+                <td>2024-06-09</td>
+                <td><span class="status-open">OPEN</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="add-article-button">Add New Article</button>
+          <div class="new-article-form">
+            <h3>Add New Article</h3>
+            <input type="text" placeholder="Title" class="article-title" />
+            <input type="date" class="article-date" />
+            <select class="article-status">
+              <option value="open">OPEN</option>
+              <option value="closed">CLOSED</option>
+            </select>
+            <input type="text" placeholder="File Link" class="article-link" />
+            <button class="save-article-button">Save Article</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script_bug.js"></script>
+  </body>
+</html>

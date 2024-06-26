@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-item ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 220px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #7b61ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.user-icon img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.articles-listing {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.articles-listing h2 {
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #7b61ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-articles {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #7b61ff;
+  text-decoration: none;
+}
+
+.status-open {
+  color: #7b61ff;
+  font-weight: bold;
+}
+
+.add-article-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #7b61ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.new-article-form {
+  display: none;
+  margin-top: 20px;
+}
+
+.new-article-form h3 {
+  margin-bottom: 10px;
+}
+
+.article-title,
+.article-date,
+.article-link,
+.article-status {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.save-article-button {
+  padding: 10px 20px;
+  background-color: #7b61ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
