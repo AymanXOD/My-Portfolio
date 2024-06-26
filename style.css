@@ -1,261 +1,256 @@
 .img_profile {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-}
-
-#home {
-    background-image:url(Image/1.png);
-    height: 768px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 .home {
-    display: flex;
-    height: 80vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+element.style {
+  padding-bottom: 110px !important;
+}
+#home {
+  background-image: url(Image/1.png);
+  height: 768px;
 }
 #info {
-    background-image: url(Image/2.png);
-    height: 768px;
-
-
+  background-image: url(Image/2.png);
+  height: 768px;
 }
 #skill {
-    background-image: url(Image/3.png);
-    height: 575px;
-
+  background-image: url(Image/3.png);
+  height: auto;
 }
 #experience {
-    background-image: url(Image/3.png);
-    height: 768px;
-
+  background-image: url(Image/3.png);
+  height: auto;
 }
 #works {
-    background-image: url(Image/4.png);
-    height: 768px;   
+  background-image: url(Image/3.png);
+  height: auto;
 }
 #greeting {
-    background-image: url(Image/5.png);
-    height: 768PX;
+  background-image: url(Image/3.png);
+  height: auto;
 }
 
 .img_frame {
-    height: 400px;
-    width: 400px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+  height: 400px;
+  width: 400px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
-.font-great-vibes{
-    color: rgb(246, 246, 247);
-    font-family: 'Great Vibes', cursive;    
+.font-great-vibes {
+  color: rgb(246, 246, 247);
+  font-family: "Great Vibes", cursive;
 }
 .font-poppins {
-    color: rgb(246, 246, 247);
-    font-family: 'Poppins', sans-serif;
+  color: rgb(246, 246, 247);
+  font-family: "Poppins", sans-serif;
 }
 .font-open-sans {
-    color: rgb(246, 246, 247);
-    font-family: 'Open Sans', sans-serif;
+  color: rgb(246, 246, 247);
+  font-family: "Open Sans", sans-serif;
 }
 hr {
-    border: 1px solid rgb(246, 246, 247);
-    height: 10px;
-    color: rgb(246, 246, 247);
-    background-color: rgb(246, 246, 247); 
+  border: 1px solid rgb(246, 246, 247);
+  height: 10px;
+  color: rgb(246, 246, 247);
+  background-color: rgb(246, 246, 247);
 }
 .hr_card > hr {
-    border: 1px solid rgb(246, 246, 247);
-    height: 10px;
-    color: rgb(246, 246, 247);
-    background-color: rgb(246, 246, 247); 
+  border: 1px solid rgb(246, 246, 247);
+  height: 10px;
+  color: rgb(246, 246, 247);
+  background-color: rgb(246, 246, 247);
 }
 .img_skill {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 .bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color: rgba(185, 153, 153, 0.411)!important;
+  --bs-bg-opacity: 1;
+  background-color: rgba(185, 153, 153, 0.411) !important;
 }
 nav {
-    background-color: rgba(116, 95, 84, 0.644)!important;
-    position: fixed !important;
-    width: 100%;   
+  background-color: rgba(116, 95, 84, 0.644) !important;
+  position: fixed !important;
+  width: 100%;
 }
 .nav-link {
-    color: rgb(246, 246, 247)!important;
+  color: rgb(246, 246, 247) !important;
 }
 li > a:hover {
-    background-color: rgba(232, 240, 247, 0.425);
+  background-color: rgba(232, 240, 247, 0.425);
 }
 .greeting_1 {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 .img_greeting {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
 }
 .icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: aliceblue;
-    padding: 5px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: aliceblue;
+  padding: 5px;
 }
 .border-top {
-    border-top: var(--bs-border-width) var(--bs-border-style) #000000!important;
+  border-top: var(--bs-border-width) var(--bs-border-style) #000000 !important;
 }
 .text-body-secondary {
-    --bs-text-opacity: 1;
-    color: black !important;
-    font-size: 1rem !important;
+  --bs-text-opacity: 1;
+  color: black !important;
+  font-size: 1rem !important;
 }
-.img_card{
-    width: 300px;
-    height: 180px;
-    border: 6px dotted white;
-    padding: 0.5rem;
+.img_card {
+  width: 300px;
+  height: 180px;
+  border: 6px dotted white;
+  padding: 0.5rem;
 }
 .project_collection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    #experience > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
-        font-size: 3rem!important;
-    }
-    #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
-        font-size: 3rem!important;
-    }
-    #greeting > div > div > h1 {
-        font-size: 4rem!important;
-    }
-    #greeting > div > div > h2 {
-        font-size: 1.5rem!important;
-    }
-    #works > div > div > div.project_headline > h1 {
-        font-size:  3rem !important;
-    }
-    nav {
-        background-color: rgb(116, 95, 84)!important;
-        position: relative !important;
-        width: 100%;
-        
-    }
-    #nav_bar > div > header > ul > li:nth-child(1) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(2) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(3) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(4) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(5) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(6) > a {
-        padding-right: 7px!important; 
-        padding-left: 7px!important;
-    }
-    #nav_bar > div > header > a > span {
-        font-size: 2rem!important;
-    }
-    #nav_bar > div > header > ul{
-        border-top: 1px solid black  !important;
-    }
-    .greeting_1 {
-        text-align: center!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        align-content: center!important;
-
-    }
+  #experience
+    > div
+    > div
+    > div:nth-child(1)
+    > h1.display-5.font-poppins.lh-1.mb-3 {
+    font-size: 3rem !important;
   }
-  @media only screen and (max-width: 360px) {
-    #experience > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
-        font-size: 3rem!important;
-    }
-    #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
-        font-size: 3rem!important;
-    }
-    #greeting > div > div > h1 {
-        font-size: 4rem!important;
-    }
-    #greeting > div > div > h2 {
-        font-size: 1.5rem!important;
-    }
-    #works > div > div > div.project_headline > h1 {
-        font-size:  3rem !important;
-    }
-    nav {
-        background-color: rgb(116, 95, 84)!important;
-        position: relative !important;
-        width: 100%;
-        
-    }
-    #nav_bar > div > header > ul > li:nth-child(1) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(2) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(3) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(4) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(5) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > ul > li:nth-child(6) > a {
-        padding-right: 4px!important; 
-        padding-left: 4px!important;
-    }
-    #nav_bar > div > header > a > span {
-        font-size: 2rem!important;
-    }
-    #nav_bar > div > header > ul{
-        border-top: 1px solid black  !important;
-    }
-    .greeting_1 {
-        text-align: center!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        align-content: center!important;
-
-    }
+  #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
+    font-size: 3rem !important;
   }
-
-
-
-
+  #greeting > div > div > h1 {
+    font-size: 4rem !important;
+  }
+  #greeting > div > div > h2 {
+    font-size: 1.5rem !important;
+  }
+  #works > div > div > div.project_headline > h1 {
+    font-size: 3rem !important;
+  }
+  nav {
+    background-color: rgb(116, 95, 84) !important;
+    position: relative !important;
+    width: 100%;
+  }
+  #nav_bar > div > header > ul > li:nth-child(1) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(2) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(3) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(4) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(5) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(6) > a {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+  #nav_bar > div > header > a > span {
+    font-size: 2rem !important;
+  }
+  #nav_bar > div > header > ul {
+    border-top: 1px solid black !important;
+  }
+  .greeting_1 {
+    text-align: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: flex-end !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #experience
+    > div
+    > div
+    > div:nth-child(1)
+    > h1.display-5.font-poppins.lh-1.mb-3 {
+    font-size: 3rem !important;
+  }
+  #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
+    font-size: 3rem !important;
+  }
+  #greeting > div > div > h1 {
+    font-size: 4rem !important;
+  }
+  #greeting > div > div > h2 {
+    font-size: 1.5rem !important;
+  }
+  #works > div > div > div.project_headline > h1 {
+    font-size: 3rem !important;
+  }
+  nav {
+    background-color: rgb(116, 95, 84) !important;
+    position: relative !important;
+    width: 100%;
+  }
+  #nav_bar > div > header > ul > li:nth-child(1) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(2) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(3) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(4) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(5) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > ul > li:nth-child(6) > a {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  #nav_bar > div > header > a > span {
+    font-size: 2rem !important;
+  }
+  #nav_bar > div > header > ul {
+    border-top: 1px solid black !important;
+  }
+  .greeting_1 {
+    text-align: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: flex-end !important;
+  }
+}
