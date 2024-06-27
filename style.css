@@ -141,6 +141,12 @@ li > a:hover {
   #skill > div > div > div:nth-child(1) > h1.display-5.font-poppins.lh-1.mb-3 {
     font-size: 3rem !important;
   }
+  .about_me_passage {
+    font-size: 1rem !important;
+  }
+  .exp_passage {
+    font-size: 1rem !important;
+  }
   #greeting > div > div > h1 {
     font-size: 4rem !important;
   }
@@ -205,6 +211,12 @@ li > a:hover {
   }
   #greeting > div > div > h1 {
     font-size: 4rem !important;
+  }
+  .about_me_passage {
+    font-size: 0.7rem !important;
+  }
+  .exp_passage {
+    font-size: 0.8rem !important;
   }
   #greeting > div > div > h2 {
     font-size: 1.5rem !important;
