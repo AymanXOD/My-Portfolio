@@ -14,11 +14,11 @@ element.style {
   padding-bottom: 110px !important;
 }
 #home {
-  background-image: url(Image/1.png);
+  background-image: url(Image/3.png);
   height: 768px;
 }
 #info {
-  background-image: url(Image/2.png);
+  background-image: url(Image/3.png);
   height: 768px;
 }
 #skill {
